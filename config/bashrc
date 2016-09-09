@@ -1,0 +1,2 @@
+# Prompt style
+PS1="\u\$ "
