@@ -13,8 +13,9 @@ brew update && brew upgrade
 echo "==> Brew Cask"
 brew tap caskroom/cask
 
-echo "==> wget"
+echo "==> Brew Formulas"
 brew install wget
+brew install heroku
 
 echo "==> Node and NPM"
 brew install node
