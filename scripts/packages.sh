@@ -20,6 +20,9 @@ echo "==> Node and NPM"
 brew install node
 npm install -g npm
 
+echo "==> NVM"
+curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+
 echo "==> Atom"
 npm install -g atom-cli
 apm install file-icons
