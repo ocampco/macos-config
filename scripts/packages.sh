@@ -8,6 +8,9 @@ source ~/.bashrc && source ~/.bash_profile
 
 echo "==> Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" \ </dev/null
+brew update && brew upgrade
+
+echo "==> Brew Cask"
 brew tap caskroom/cask
 
 echo "==> wget"
