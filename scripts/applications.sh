@@ -9,7 +9,6 @@ brew cask install iterm2
 
 echo "==> Atom"
 brew cask install atom
-npm install -g atom-cli
 
 echo "==> Spectacle"
 brew cask install spectacle

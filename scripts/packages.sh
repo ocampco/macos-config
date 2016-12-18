@@ -16,3 +16,7 @@ brew install wget
 echo "==> Node and NPM"
 brew install node
 npm install -g npm
+
+echo "==> Atom"
+npm install -g atom-cli
+apm install file-icons
