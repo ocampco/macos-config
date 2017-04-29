@@ -1,4 +1,5 @@
-#!bin/bash
+#!/bin/bash
+
 echo "----- Setting up your mac -----"
 
 ./scripts/packages.sh

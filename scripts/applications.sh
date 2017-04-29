@@ -1,4 +1,5 @@
-#!bin/bash
+#!/bin/bash
+
 echo "----- Installing Applications -----"
 
 echo "==> Google Chrome"
