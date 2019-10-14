@@ -21,3 +21,4 @@ $ ./setup.sh
 - iTerm
 - Atom
 - Spectacle
+- Fira Code

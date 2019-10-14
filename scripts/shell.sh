@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Installing NVM..."
+echo "Installing nvm..."
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 
 echo "Configuring shell..."
