@@ -1,8 +1,0 @@
-# Prompt style
-PS1="\w\$ "
-
-# Aliases
-alias st="status"
-alias co="checkout"
-alias cl="clone"
-alias a="atom"

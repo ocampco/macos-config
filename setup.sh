@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "----- Setting up your mac -----"
+echo "Setting up your mac..."
 
-./scripts/packages.sh
-./scripts/applications.sh
+# ./scripts/alias.sh
+# ./scripts/vim.sh

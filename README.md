@@ -1,8 +1,5 @@
 # Developer Setup for MacOS
 
-![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)
-![Homebrew Version](https://img.shields.io/homebrew/v/cake.svg)
-
 ### Install
 ```bash
 $ ./setup.sh
@@ -10,17 +7,17 @@ $ ./setup.sh
 
 ---
 
-### Packages
-- Homebrew
-- Brew Cask
-- `wget`
-- NPM
-- Node
+### Config
+- Vim
+- iTerm
+- Spectacle
+- Bash
+- NVM
+- Git
 
 ---
 
-### Applications
-- Google Chrome
-- iTerm2
+### Manual setup
+- iTerm
 - Atom
 - Spectacle
