@@ -2,5 +2,5 @@
 
 echo "Setting up your mac..."
 
-# ./scripts/alias.sh
-# ./scripts/vim.sh
+# TODO: Use working directories
+# Execute individual scripts instead
