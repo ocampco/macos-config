@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 echo "Installing atom packages..."
 apm install autocomplete-modules

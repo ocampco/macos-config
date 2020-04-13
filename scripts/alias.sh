@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 echo "Setting git aliases..."
 git config --global alias.cl clone

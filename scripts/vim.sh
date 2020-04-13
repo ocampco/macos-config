@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 echo "Installing vim theme..."
 mkdir -p ~/.vim/colors
