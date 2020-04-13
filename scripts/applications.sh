@@ -6,8 +6,7 @@ echo "Installing iTerm2..."
 echo "Note: Configuration is included but manual"
 brew cask iterm2
 
-echo "Installing Atom..."
-brew cask atom
+source ./scripts/atom.sh
 
 echo "Installing Jetbrains Toolbox..."
 echo "Note: IDEs require manual installation"
@@ -21,8 +20,7 @@ echo "Configuring productivity..."
 echo "Installing Notable..."
 brew cask notable
 
-echo "Installing Spectacle..."
-brew cask spectacle
+source ./scripts/spectacle.sh
 
 echo "Configuring Media..."
 
@@ -31,3 +29,5 @@ brew cask android-file-transfer
 
 echo "Installing VLC..."
 brew cask vlc
+
+echo "Done"
