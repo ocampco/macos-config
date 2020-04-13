@@ -5,4 +5,5 @@ brew cask atom
 
 source ./scripts/atom-packages.sh
 
-echo "Please manually install keymap.cson and snippets.cson"
+cp ./config/keymap.cson ~/.atom/keymap.cson
+cp ./config/snippets.cson ~/.atom/snippets.cson
