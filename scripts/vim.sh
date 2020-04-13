@@ -2,9 +2,9 @@
 
 echo "Installing vim theme..."
 mkdir -p ~/.vim/colors
-cp ../config/gruvbox-material.vim` ~/.vim/colors
+cp ../config/gruvbox-material.vim ~/.vim/colors
 
 echo "Installing vim config..."
-cp ../config/.vimrc` ~/
+cp ../config/.vimrc ~/
 
 echo "Done"
