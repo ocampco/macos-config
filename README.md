@@ -12,6 +12,7 @@ $ ./setup.sh
 - iTerm
 - Spectacle
 - Bash
+- zsh
 - NVM
 - Git
 
@@ -27,7 +28,7 @@ $ ./setup.sh
 ##### Productivity
 - [Notable - Markdown notes](https://notable.md)
 - [Shifty - Night shift manager](https://shifty.natethompson.io/en/)
-- [KeepingYouAwake - Sleep manager](https://github.com/newmarcel/KeepingYouAwake)
+- [Amphetamine - Sleep manager](https://apps.apple.com/au/app/amphetamine/id937984704)
 - [Spectacle - Window management](https://www.spectacleapp.com)
 
 ##### Fonts
