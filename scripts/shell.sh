@@ -7,5 +7,4 @@ echo "Configuring shell..."
 cp ../config/.bash_profile ~/
 
 echo "Done"
-
 echo "Please manually install atom via: https://atom.io"

@@ -12,5 +12,4 @@ apm install linter-stylelint
 apm install status-bar-blame
 
 echo "Done"
-
 echo "Please manually install keymap.cson and snippets.cson"
