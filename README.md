@@ -12,6 +12,8 @@
 
 ### :coffee: Install
 
+:warning: _This setup will replace your current configurations and is only recommended for fresh installs_
+
 ```bash
 $ ./setup.sh
 ```
