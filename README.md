@@ -15,7 +15,14 @@
 :warning: _This setup will replace your current configurations and is only recommended for fresh installs_
 
 ```bash
+# All
 $ ./setup.sh
+
+# Individual
+$ ./scripts/shell.sh    # Configure shell and install base packages
+$ ./scripts/vim.sh      # Configure Vim
+$ ./scripts/git.sh      # Configure git aliases
+$ ./scripts/apps.sh     # Install and configure apps
 ```
 
 ---
