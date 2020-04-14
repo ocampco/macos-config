@@ -1,10 +1,10 @@
 #!/bin/sh
 
-optional () {
-  echo "Do you want to install $1 (optional)?"
-  select yn in "Yes" "No";
+confirm_action () {
+  echo $1
+  select response in "Yes" "No";
     do
-      case $yn in
+      case $response in
           Yes)
             $2
             break
@@ -14,4 +14,8 @@ optional () {
             ;;
       esac
   done
+}
+
+install_prompt () {
+  confirm_action "Do you want to install $1?" $2
 }
