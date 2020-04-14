@@ -5,8 +5,8 @@
 - Remaining work:
   - [x] `bash` and `zsh` compatibility
   - [x] Automate scripts
-  - [ ] Optional installations
-  - [ ] Create local test environment
+  - [x] Optional installations
+  - [ ] [~Create local test environment~](https://serverfault.com/questions/607443/can-mac-os-x-be-run-inside-docker/851032#851032)
 
 ---
 
