@@ -1,46 +1,104 @@
-# Your snippets
-#
-# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
-# expand the prefix into a larger code block with templated values.
-#
-# You can create a new snippet in this file by typing "snip" and then hitting
-# tab.
-#
-# An example CoffeeScript snippet to expand log to console.log:
-#
-# '.source.coffee':
-#   'Console log':
-#     'prefix': 'log'
-#     'body': 'console.log $1'
-#
-# Each scope (e.g. '.source.coffee' above) can only be declared once.
-#
-# This file uses CoffeeScript Object Notation (CSON).
-# If you are unfamiliar with CSON, you can read more about it in the
-# Atom Flight Manual:
-# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
-
-'.source.js':
-  'Console log value':
-    'prefix': 'cl'
-    'body': "console.log('>>>>>> $1=', $1);"
-
-  'Console log called':
-    'prefix': 'cc'
-    'body': "console.log('>>>>>> $1 called');"
-
-  'Test - Describe':
-    'prefix': 'td'
-    'body': "describe('$1', () => {$2});"
-
-  'Test - Context':
-    'prefix': 'tc'
-    'body': "context('when $1', () => {$2});"
-
-  'Test - It':
-    'prefix': 'ti'
-    'body': "it('should $1', () => {$2});"
-
-  'Test - Expect':
-    'prefix': 'te'
-    'body': "expect($1).to.equal($1);"
+{
+	"Typescript/Javascript React - Functional Component": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": ["tsc", "jsc"],
+		"body": [
+      "const $1 = () => {",
+      "  // TODO",
+      "  return <h1>$1</h1>;",
+      "};",
+      "",
+      "export default $1;",
+    ],
+		"description": "Functional Component",
+	},
+	"Typescript/Javascript - Function": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": ["tsf", "jsf"],
+		"body": [
+      "const $1 = () => {",
+      "  // TODO",
+      "};",
+      "",
+      "export default $1;",
+    ],
+		"description": "Function",
+	},
+	"Typescript - Types": {
+		"scope": "typescript,typescriptreact",
+		"prefix": "tst",
+		"body": [
+      "type $1 = {",
+      "",
+      "};",
+    ],
+		"description": "Types",
+	},
+	"Log - Variable": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "cl",
+		"body": ["console.log('$1=', $1);"],
+		"description": "Log variable",
+	},
+	"Log - Called": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "cc",
+		"body": ["console.log('$1 called');"],
+		"description": "Log called",
+	},
+	"Test - Jest - Describe": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "jd",
+		"body": ["describe('$1', () => {$2});"],
+		"description": "Jest describe function for tests",
+	},
+	"Test - Jest - It": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "ji",
+		"body": ["it('should $1', () => {$2});"],
+		"description": "Jest it function for tests",
+	},
+	"Test - Jest - Test": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "jt",
+		"body": ["test('should $1', () => {$2});"],
+		"description": "Jest test function for tests",
+	},
+	"Test - Jest - Expect": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "je",
+		"body": ["expect($1).toEqual($2);"],
+		"description": "Jest expect function for tests",
+	},
+	"Test - Jest Snapshot - Import": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "jsi",
+		"body": ["import { create } from 'react-test-renderer';"],
+		"description": "Import for Jest Snapshot",
+	},
+	"Test - Jest Snapshot - Test": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "jst",
+		"body": [
+      "const tree = create($1).toJSON();",
+      "expect(tree).toMatchSnapshot();"
+    ],
+		"description": "Test for Jest Snapshot",
+	},
+	"Test - Testing Library - Import": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "tli",
+		"body": ["import { render, screen } from '@testing-library/react';"],
+		"description": "Import for Testing Library",
+	},
+	"Test - Testing Library - Test": {
+		"scope": "javascript,typescript,typescriptreact",
+		"prefix": "tlt",
+		"body": [
+      "render($1);",
+      "await screen.findByTestId($2);",
+      "expect(screen.getByTestId($2)).toBeInTheDocument();",
+    ],
+		"description": "Test for Testing Library",
+	},
+}
